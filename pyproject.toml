@@ -1,0 +1,32 @@
+[build-system]
+requires = ['setuptools>=68']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'django-ip-path-restrict'
+version = '1.0.0'
+description = 'Restrict Django paths to allowed IP addresses, with optional Cloudflare support.'
+readme = 'README.md'
+requires-python = '>=3.11'
+authors = [{name = 'Peter Stavrou'}]
+license = {file = 'LICENSE'}
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Framework :: Django',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+]
+dependencies = [
+    'Django>=5.2',
+]
+
+[project.urls]
+Homepage = 'https://github.com/peterstavrou/django-ip-path-restrict'
+Repository = 'https://github.com/peterstavrou/django-ip-path-restrict'
+
+[tool.setuptools.packages.find]
+where = ['.']
+include = ['django_ip_path_restrict*']
