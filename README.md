@@ -1,4 +1,10 @@
-# django-ip-path-restrict
+# Django IP Path Restrict
+
+[![Tests](https://github.com/peterstavrou/django-ip-path-restrict/actions/workflows/release.yml/badge.svg)](https://github.com/peterstavrou/django-ip-path-restrict/actions/workflows/release.yml) [![PyPI](https://img.shields.io/pypi/v/django-ip-path-restrict)](https://pypi.org/project/django-ip-path-restrict/) [![MIT License](https://img.shields.io/badge/license-MIT-9d9d9d)](https://github.com/peterstavrou/django-ip-path-restrict/blob/main/LICENSE)
+
+Restrict access to specific URLs so that only users with whitelisted IP addresses can access them.
+
+Supports IPv4 and IPv6 addresses, IP ranges, and optional Cloudflare support.
 
 Restrict access to specific URLs so that only users with whitelisted IP addresses can access them.
 
